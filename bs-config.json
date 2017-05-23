@@ -1,0 +1,10 @@
+{
+  "files": ["src/**/*.{html,htm,css,js,png}"],
+  "server": {
+    "baseDir": "src",
+    "routes": {
+      "/node_modules": "node_modules",
+      "other": "other"
+    }
+  }
+}
